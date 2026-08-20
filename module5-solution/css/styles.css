@@ -1,0 +1,46 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+.panel-footer {
+  margin-top: 30px;
+  background-color: #222;
+  color: #aeaeae;
+}
+.panel-footer section {
+  margin-bottom: 30px;
+}
+.panel-footer section span {
+  color: white;
+  font-size: 1.2em;
+}
+#logo-img {
+  background: url('../images/restaurant-logo.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+.col-md-4 {
+  margin-bottom: 30px;
+}
+#specials-tile {
+  background: url('../images/specials-tile.jpg') no-repeat;
+}
+.server-tile {
+  height: 250px;
+  position: relative;
+  border: 2px solid #333;
+  cursor: pointer;
+}
+.server-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-size: 1.8em;
+  text-transform: uppercase;
+}
